@@ -897,7 +897,7 @@ Wait for all pods to enter the 'Running' state
     watch -n5 "oc get pods -n rook-ceph"
     ```
 
-Modify the cluster.yaml file for your environment.
+Create a new cluster.yaml file and copy the code below for your environment. Make sure under nodes section, you should give correct storage nodes name.
 
   ```yaml
   apiVersion: ceph.rook.io/v1
